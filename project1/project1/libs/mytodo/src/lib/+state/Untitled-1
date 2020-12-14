@@ -1,0 +1,21 @@
+
+
+
+forRoot
+
+
+HautpStates  = {
+  frans: {}
+  dara: {
+      edit: 1,
+      aline: 1
+  }
+}
+
+
+forRoot(frans = {})
+
+
+forFeature("dara", {edit: 1})
+
+forFeature("dara", {aline: 1})
